@@ -1,0 +1,86 @@
+#Arithmetic
+'''a=int(input("Enter a:"))
+b=int(input("Enter b:"))
+print("Add:",a+b)
+print("Sub:",a-b)
+print("Mul:",a*b)
+print("Div:",a/b)
+print("Mod:",a%b)
+print("FD:",a//b)
+print("Expo:",a**b)
+
+#Last digit
+a=123
+b=a%10
+print("Last digit:",b)
+
+#Remove the last digit
+a=123
+b=a//10
+print("Remove :",b)
+
+#Comparison
+a=int(input("Enter a:"))
+b=int(input("Enter b:"))
+print(a<b)
+print(a>b)
+print(a>=b)
+print(a<=b)
+print(a==b)
+print(a!=b)'''
+
+#Logical
+'''
+x=7
+y=8
+#and
+print(x==7 and y!=7)
+print(x==7 and y==7)
+#or
+print(x>8 or y<10)
+print(x>8 or y>10)
+#not
+print(not(x==7))
+print(not(y!=8))
+'''
+#assignment
+'''
+i=10
+i+=2    #10+2=12
+i-=5    #12-5=7
+i*=2   #7*2
+print(i)
+
+
+#Special operators
+#Membership
+a=["Vinoth","Nikesh","Jacob","Aldrin"]
+print("Nikesh" in a)
+print("nikesh" in a)
+print("Sakthi" in a)
+print("Sakthi" not in a)
+
+#Identify operators
+x=[1,7]
+y=x
+z=[1,7]
+print(x is y)
+print(x is z)
+print(x is not z)
+
+#Bitwise
+a=2
+b=10
+ print("&:",a&b)
+print("|:",a|b)
+print("^:",a^b)
+print("~a:",~a)
+print("~b:",~b)
+'''
+
+#Sequential control flow
+n="Kishan"
+print("My name is",n)
+print(n,"Is a good boy")
+print(n)
+
