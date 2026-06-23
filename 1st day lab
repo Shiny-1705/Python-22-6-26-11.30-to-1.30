@@ -1,0 +1,59 @@
+🟢 Easy Task 
+
+Task 1: Temperature Converter
+Problem: Write a program that takes a temperature in Celsius from the user and converts it to Fahrenheit.
+
+Formula: F = (C \times 1.8) + 32
+
+Task 2: Simple Interest Calculator
+Problem: Write a program to calculate simple interest. Ask the user to input the Principal amount, the annual Rate of interest, and the Time in years.
+
+Formula:
+Simple Interest =Principal x Rate x times/100
+
+Task 3: Square and Cube Generator
+Problem: Read a single whole number from the user. Calculate and print its square value and its cube value using only arithmetic or exponent operators.
+
+Task 4: Total Minutes & Seconds
+Problem: Ask the user to input a duration in hours as a decimal number (for example, 2.5 hours). Convert this value entirely into total minutes and total seconds, then print both results.
+
+Task 5: Average of Three Marks
+Problem: Accept three subject marks (out of 100) from a student. Write a program to calculate the total sum of the marks and their final average score.
+
+🔴 Hard Task 
+
+Task 6: Digits Extractor
+
+Problem: Ask the user to input any 3-digit number (for example, 345 ). Without using loops or string operations, extract each individual digit into its own variable and print
+
+them line-by-line.
+
+Expected Output Example: text
+
+First digit: 3
+
+Second digit: 4
+
+Third digit: 5
+
+
+Task 7: Swap Without a Third Variable using bitwise operators 
+
+Problem: Read two distinct numbers into variables a and b. Swap the values stored in these two variables without creating or using a temporary third variable (like c ).
+
+
+Task 8: The ATM Cashier Breakdown
+
+Problem: A user wants to withdraw an amount from an ATM that is a perfect multiple of 100 (for example, 3800 ). Assuming the machine only dispenses ₹500 notes and ₹100 notes, calculate and print the minimum number of ₹500 and ₹100 notes required to fulfill the request.
+
+Task 9: Weeks and Leftover Days Converter
+
+Problem: Request the user to enter a total number of days (for example, 45 ). Write a program to calculate how many complete weeks are in that many days, and how many individual leftover days remains.
+
+Expected Output Example for 45 days:
+6 Weeks and 3 Days
+
+
+Task 10: Reverse a 2-Digit Number Mathematically
+
+Problem: Take a 2-digit number as input from the user (for example, 72 ). Using purely mathematical operators (// and % ), reverse the position of the digits to make it a new number (27 ) and print the final result. You cannot treat the input as a string.
