@@ -1,0 +1,87 @@
+#if
+'''a=int(input("Enter a:"))
+if a>=10:
+    print("Okk")
+
+
+n=str(input("Enter name:"))
+if n=="Visruth" or n=="Sakthi":
+    print("Hiiii")
+
+#If-else
+a=int(input("Enter a:"))
+if a>10:
+    print("Okkk")
+else:
+    print("Nottt")'''
+    
+#Even or odd
+'''
+a=int(input("Enter a:"))
+if a%2==0:
+    print("Even")
+else:
+    print("Odd")
+'''
+   
+#Elif
+#Syntax
+'''
+if condition 1:
+    #statement 1
+elif condition 2:
+    #Statement 2
+elif condition 3:
+    #Statement 3
+else:
+    #Statement3
+
+
+#Divisible by 2 or 5
+a=int(input("Enter a:"))
+if a%2==0:
+    print("Divisible by 2")
+elif a%5==0:
+    print("Divisible by 5")
+else:
+    print("0")
+
+#Username and password
+u=str(input("Enter username:"))
+p=int(input("Enter pass:"))
+if u=="Livewire" and p==98123:
+    print("Login successful")
+else:
+    print("Invalid")
+
+m=int(input("Enter mark:"))
+a=int(input("Enter attendence:"))
+if m>=70 and a>=75:
+    print("Pass")
+else:
+    print("Fail")
+
+f=str(input("Enter food:"))
+p=int(input("Enter price:"))
+if f=="Biriyani":
+    print("Choose the price")
+    if p<=200:
+        print("Enjoyy!!")
+    elif p==300:
+        print("Tooo muchh")
+    else:
+        print("Sorryyy!!")
+else:
+    print("Ooops")
+'''
+#ATM 
+b=10000
+a=int(input("Enter price:"))
+if a<=b:
+    pin=int(input("Enter pin:"))
+    if pin==123:
+        print("Success")
+    else:
+        print("Sorryyy!!")
+else:
+    print("Invalid")
