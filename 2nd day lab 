@@ -1,0 +1,88 @@
+
+1. A student passes an exam only if they score 35 marks or above. Write a program to determine whether the student has passed or failed.
+
+
+2. A person can vote only if they are 18 years old or above. Write a program to check voting eligibility.
+
+
+3. A customer receives a 10% discount if their shopping bill exceeds ₹5000. Write a program to calculate the final amount.
+
+
+4. A user can access a website only if the entered password matches the stored password. Write a program to verify the password.
+
+
+5. Based on marks, assign grades:
+
+90–100 → A
+
+75–89 → B
+
+50–74 → C
+
+Below 50 → Fail
+
+
+
+6. Create a simple calculator that performs addition, subtraction, multiplication, or division based on the user's choice.
+
+
+7. Calculate electricity charges based on units consumed:
+
+0–100 units → ₹2/unit
+
+101–200 units → ₹3/unit
+
+Above 200 units → ₹5/unit
+
+
+
+8. Determine the ticket fare based on age:
+
+Below 5 years → Free
+
+5–12 years → ₹50
+
+Above 12 years → ₹100
+
+
+
+9. A bank approves a loan only if the applicant's salary is above ₹30,000. If eligible, check whether their credit score is above 700 before approving the loan.
+
+
+10. A student is eligible for college admission only if they have scored above 60% in academics. If eligible, check whether their entrance exam score is above 70.
+
+
+11. A company recruits candidates only if their degree percentage is above 65%. If eligible, check whether their aptitude test score is above 75.
+
+
+12. A scholarship is awarded only if a student scores above 80%. If eligible, check whether their attendance is above 75%.
+
+
+13. An ATM should allow cash withdrawal only if the account balance is sufficient. If sufficient, verify the user's PIN before processing the transaction.
+
+
+14. A secure login system should first verify the username, then the password, and finally an OTP before granting access.
+
+
+15. A hospital appointment can be confirmed only if the doctor is available. If available, check whether appointment slots are still open.
+
+
+16. A student can access the cybersecurity lab only if they are registered. If registered, verify whether the course fees have been paid.
+
+
+17. An employee is eligible for a bonus only if they have more than 3 years of experience. If eligible, check whether their performance rating is 8 or above.
+
+
+18. An online examination portal should allow access only if the hall ticket is available. If available, verify whether all fees have been cleared.
+
+
+19. A hostel room can be allotted only if the student has been selected for admission. If selected, check whether rooms are available.
+
+
+20. An online shopping website offers:
+
+20% discount for premium members if the purchase amount exceeds ₹5000.
+
+10% discount for non-premium members if the purchase amount exceeds ₹5000.
+
+No discount otherwise. Write a program to determine the discount.
