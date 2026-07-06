@@ -1,0 +1,12 @@
+Using break
+Print numbers from 1 to 100 and stop at 50.
+Ask for a password until the correct password is entered.
+Search for a name in a list and stop when found.
+Using continue
+Print numbers from 1 to 20, skipping multiples of 3.
+Print only odd numbers from 1 to 50.
+Skip vowels while printing a string.
+Using pass
+Create an empty function using pass.
+Create an empty class using pass.
+Create a loop where a condition is not implemented yet and use pass.
