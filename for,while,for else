@@ -1,0 +1,182 @@
+#for loop
+#increment
+#start+stop+step
+'''for i in range(1,5,1):
+    print(i)
+#start+step
+for i in range(1,5,2):
+    print(i)
+#stop
+for i in range(5):
+    print(i)
+
+#Power 2
+for i in range(1,5):
+    print(i**2)
+#x2
+for i in range(1,5):
+    print(i*2)
+#Tables
+a=int(input("Enter a:"))
+for i in range(1,6):
+    print(i,'x',a,'=',a*i)
+
+#factorial
+n=int(input("Enter n:"))
+f=1
+for i in range(1,n+1):
+    f*=i
+    print("Factorial:",f)
+#Palindrome
+a=input("Enter word:")
+reverse=""
+for letter in a:
+    reverse=letter+reverse
+if a==reverse:
+    print("Palindrome")
+else:
+    print("Not a palindrome")
+
+#String
+a="Keerthi"
+for i in a:
+    print(i)
+
+#Decrement
+for i in range(5,1,-1):
+    print(i)
+
+#Nested
+for i in range(5):
+    for j in range(4):
+        print('*',end="  ")
+    print()
+#Triangle
+for i in range(1,6):
+    for j in range(i):
+        print('*',end="  ")
+    print()
+#Inverted
+for i in range(5,0,-1):
+    for j in range(i):
+        print('*',end="  ")
+    print()
+
+#Cross
+a=int(input("Enter a:"))
+for r in range(a):
+    for c in range(a):
+        if r==c or r+c==a-1:
+            print('*',end="")
+        else:
+            print(" ",end="")
+    print()
+
+#for-else
+for i in range(1,6):
+    print(i)
+else:
+    print("Loop")
+
+#While
+#Increment
+i=1
+while i<=5:
+    print(i)
+    i+=1
+#Decrement
+i=5
+while i>=1:
+    print(i)
+    i-=1
+
+#Infinity
+while True:
+    print("Hii")
+
+#Palindrome
+a=int(input("Enter n:"))
+b=0
+t=a
+while t>0:
+    d=t%10
+    b=(b*10)+d
+    t=t//10
+print(b)
+if b==a:
+    print("Palindrome")
+else:
+    print("Not a palindrome")
+
+#Spy numbers
+a=int(input("Enter n:"))
+b=0
+c=1
+t=a
+while t>0:
+    d=t%10
+    b+=d
+    c*=d
+    t=t//10
+print(b)
+print(c)
+if b==c:
+    print("Spy numbers")
+else:
+    print("Not a spy numbers")
+
+#break
+for i in range(1,7):
+    if i==4:
+        break
+    print(i)
+
+#continue
+for i in range(1,4):
+    if i==2:
+        continue
+    print(i)
+#pass
+for i in range(1,7):
+    pass
+
+#break-while
+i=1
+while i<=5:
+    if i==3:
+        break
+    print(i)
+    i+=1'''
+#continue
+'''i=0
+while i<=5:
+    i+=1
+    if i==3:  
+        continue
+    print(i)
+
+#for
+a=['Keerthika','Jothi','Sakthi','Aarthi','Harini']
+for i in a:
+    if i=='Jothi':
+        continue
+    print(i)
+
+
+#for else
+#break
+for i in range(1,7):
+    if i==3:
+        break
+    print(i)
+else:
+    print("Loop")
+
+#continue
+a=['Keerthika','Jothi','Sakthi','Aarthi']
+for i in a:
+    if i=='Jothi':
+      continue
+    print(i)
+else:
+    print("Found")
