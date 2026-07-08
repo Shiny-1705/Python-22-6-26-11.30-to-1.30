@@ -1,0 +1,83 @@
+Task 1: Username Formatter
+
+Input a username and:
+
+Convert it to uppercase.
+Convert it to lowercase.
+Convert it to title case.
+Task 2: Email Validator
+
+Input an email address and:
+
+Check if it starts with a letter.
+Check if it ends with .com.
+
+(Hint: Use startswith() and endswith())
+
+Task 3: Character Counter
+
+Input a sentence and:
+
+Count how many times the letter 'a' appears.
+Count how many times the letter 'e' appears.
+
+(Hint: Use count())
+
+Task 4: Search a Character
+
+Input a word and:
+
+Find the position of a given character.
+Display "Character Not Found" if it doesn't exist.
+
+(Hint: Use find())
+
+Task 5: Password Checker
+
+Input a password and check:
+
+Is it only alphabets?
+Is it only digits?
+Is it alphanumeric?
+
+(Hint: Use isalpha(), isdigit(), isalnum())
+
+Task 6: Name Decoration
+
+Input your name and:
+
+Display it centered within 20 characters using *.
+Display it left-justified within 20 characters using -.
+Display it right-justified within 20 characters using -.
+Task 7: Text Converter
+
+Input a sentence and:
+
+Convert it to uppercase.
+Convert it to lowercase.
+Swap uppercase to lowercase and vice versa.
+Task 8: Replace Words
+
+Input a sentence and:
+
+Replace all occurrences of "Python" with "Java".
+
+(Hint: Use replace())
+
+Task 9: Roll Number Formatter
+
+Input a roll number and:
+
+Pad it with zeros to make it 10 digits long.
+
+(Hint: Use zfill())
+
+Task 10: Case Analyzer
+
+Input a word and check:
+
+Is it all uppercase?
+Is it all lowercase?
+Is it title case?
+
+(Hint: Use isupper(), islower(), istitle())
