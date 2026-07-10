@@ -1,0 +1,248 @@
+List Tasks
+
+1. Create a list of 10 numbers and print only the even numbers.
+
+
+2. Find the largest and smallest number in a list.
+
+
+3. Calculate the sum and average of all elements in a list.
+
+
+4. Remove duplicate elements from a list.
+
+
+5. Find the second largest number in a list.
+
+
+6. Reverse a list without using reverse().
+
+
+7. Merge two lists and sort them.
+
+
+8. Count how many times a specific element appears in a list.
+
+
+9. Separate even and odd numbers into two different lists.
+
+
+10. Search for a student name in a list.
+
+
+
+
+---
+
+Tuple Tasks
+
+1. Create a tuple of 5 subjects and print each subject.
+
+
+2. Find the length of a tuple.
+
+
+3. Count the occurrence of a specific value in a tuple.
+
+
+4. Find the index of an element in a tuple.
+
+
+5. Convert a tuple into a list and add a new element.
+
+
+6. Find the maximum and minimum value in a tuple.
+
+
+7. Concatenate two tuples.
+
+
+8. Check whether an element exists in a tuple.
+
+
+9. Convert a list of marks into a tuple and calculate the average.
+
+
+10. Print the first, middle, and last element of a tuple.
+
+
+
+
+---
+
+Set Tasks
+
+1. Create two sets and find their union.
+
+
+2. Create two sets and find their intersection.
+
+
+3. Find the difference between two sets.
+
+
+4. Find the symmetric difference between two sets.
+
+
+5. Remove duplicate values from a list using a set.
+
+
+6. Check whether one set is a subset of another.
+
+
+7. Check whether one set is a superset of another.
+
+
+8. Add and remove elements from a set.
+
+
+9. Find common students between two class lists using sets.
+
+
+10. Check whether two sets are disjoint.
+
+
+
+
+---
+
+Dictionary Tasks
+
+1. Create a dictionary containing student details.
+
+
+2. Add a new key-value pair to a dictionary.
+
+
+3. Update the value of an existing key.
+
+
+4. Delete a key from a dictionary.
+
+
+5. Print all keys in a dictionary.
+
+
+6. Print all values in a dictionary.
+
+
+7. Find whether a key exists in a dictionary.
+
+
+8. Count the frequency of each character in a string using a dictionary.
+
+
+9. Find the student with the highest mark using a dictionary.
+
+
+10. Merge two dictionaries.
+
+
+
+
+---
+
+Scenario-Based Tasks
+
+List
+
+1. Create a shopping cart system:
+
+Add products
+
+Remove products
+
+Display all products
+
+
+
+2. Create a student attendance list and search for a student.
+
+
+
+
+---
+
+Tuple
+
+3. Store weekdays in a tuple and display the day based on a number entered by the user.
+
+
+4. Store GPS coordinates in a tuple and display latitude and longitude separately.
+
+
+
+
+---
+
+Set
+
+5. Create a website visitor tracker that stores unique visitor IDs.
+
+
+6. Find common courses enrolled by two students using sets.
+
+
+
+
+---
+
+Dictionary
+
+7. Create an employee database:
+
+Employee ID
+
+Name
+
+Department
+
+Salary
+
+
+
+8. Create a contact book:
+
+Name → Phone Number
+
+
+
+9. Create a student mark management system:
+
+Name → Mark
+
+Find topper
+
+Update marks
+
+
+
+10. Create a library system:
+
+
+
+Book ID → Book Name
+
+Search books using Book ID
+
+
+
+---
+
+Challenge Tasks
+
+1. Convert a List → Tuple → Set → Dictionary.
+
+
+2. Find duplicate elements in a list using a dictionary.
+
+
+3. Find the frequency of each word in a sentence.
+
+
+4. Find common elements between two lists using sets.
+
+
+5. Create a mini student management system using List, Tuple, Set, and Dictionary together.
+
+
