@@ -1,0 +1,113 @@
+user-define function
+
+def student(name):
+    print("Hello",name)
+student("Harini")
+
+sum
+def add(a,b):
+    print("Add:",a+b)
+add(30,80)
+
+positional
+def student(name,course):
+    print("Hello",name)
+    print("Course",course)
+student("Python","Harini",)
+Keyword
+def student(name,course):
+    print("Hello",name)
+    print("Course",course)
+student(course="Python",name="Harini")
+Default
+def greet(name="Guest"):
+    print("Hello", name)
+greet("Harini")
+greet()
+
+variable
+def total(*args):
+    print(sum(args))
+total(10,20,30)
+
+Keywords
+def total(**kwargs):
+    print(kwargs)
+total(name="Harini",course="Python")
+
+Recursion
+def add(a,b):
+    return a+b
+add(2,5)
+
+Factorial
+def factorial(n):
+    if n==0 or n==1:
+        return 1
+    else:
+        return n*factorial(n-1)
+print(factorial(5))
+
+Expo
+def expo(n):
+    return n**2
+print(expo(2))
+print(expo(3))
+
+Print numbers from 1 to 5
+def value(n):
+    if n>5:
+        return
+    print(n)
+    value(n+1)
+value(1)
+#5 to 1
+def value(n):
+    if n<1:
+        return
+    print(n)
+    value(n-1)
+value(5)
+
+Lambda
+a=lambda x,y:x*y
+print(a(10,5))
+#
+a=lambda n:n**n
+print(a(2))
+#
+a=lambda x:x**2
+print(a(3))
+
+
+filter
+nums = [1, 2, 3, 4, 5, 6]
+even = list(filter(lambda x: x % 2 == 0, nums ))
+print(even)
+#mapping
+a=[1,2,3,4,5]
+b=list(map(lambda x:x*2,a))
+print(b)
+
+a=["Harini","Sakthi","Keerthiga"]
+b=list(filter(lambda x:x.startswith("S"),a))
+print(b)
+
+a=["nikesh","Vinoth","Keerthinath","Aldrin"]
+b=list(map(lambda x:x.upper(),a))
+print(b)
+
+increase the salary by adding 5000
+a=[20000,25000,30000]
+b=list(map(lambda x:x+5000,a))
+print(b)
+lambda-->if,else
+a=lambda a,b: a if a>b else b
+print(a(5,9))
+
+Sort the order
+a=[("Harini",20),("Sakthi",30),("Janani",1)]
+a.sort(key=lambda x:x[1])
+print(a)
+
+
