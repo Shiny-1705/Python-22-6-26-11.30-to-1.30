@@ -1,0 +1,124 @@
+Easy Level Questions
+Write a function to print "Hello World".
+Write a function to add two numbers.
+Write a function to subtract two numbers.
+Write a function to multiply two numbers.
+Write a function to divide two numbers.
+Write a function to find the square of a number.
+Write a function to find the cube of a number.
+Write a function to check whether a number is even or odd.
+Write a function to find the largest of two numbers.
+Write a function to calculate the area of a rectangle.
+
+Intermediate Level Questions:
+
+Write a function to find the factorial of a number.
+Write a function to check whether a number is prime.
+Write a function to generate Fibonacci series.
+Write a function to reverse a string.
+Write a function to count vowels in a string.
+Write a function to check whether a string is a palindrome.
+Write a function to find the second largest element in a list.
+Write a function to remove duplicates from a list.
+Write a function to count the frequency of characters in a string.
+Write a function to find the sum of all elements in a list.
+
+Lambda Function
+Easy
+
+Create a lambda function to add two numbers.
+Create a lambda function to find the square of a number.
+Create a lambda function to find the cube of a number.
+Create a lambda function to check whether a number is even.
+Create a lambda function to find the largest of two numbers.
+
+Intermediate
+
+Use lambda to sort a list of tuples by age.
+Use lambda to sort student records by marks.
+Use lambda to find the longest string in a list.
+Use lambda to calculate a 10% discount.
+Use lambda to convert temperatures from Celsius to Fahrenheit.
+
+Map() Function
+Easy
+
+Use map() to find squares of numbers.
+Use map() to convert names to uppercase.
+Use map() to add 10 to each element.
+Use map() to multiply all elements by 2.
+Use map() to find cube values.
+
+Intermediate
+Convert Celsius values to Fahrenheit using map().
+Calculate salary increments using map().
+Find lengths of words in a list.
+Convert strings to lowercase.
+Add GST to product prices.
+
+Filter() Function
+Easy
+
+Filter even numbers from a list.
+Filter odd numbers from a list.
+Filter positive numbers.
+Filter negative numbers.
+Filter numbers greater than 50.
+
+Intermediate
+Filter prime numbers.
+Filter students who scored above 75.
+Filter names starting with 'A'.
+Filter products costing more than ₹1000.
+Filter employees earning above ₹30,000.
+
+Recursion
+Easy
+
+Print numbers from 1 to 10 using recursion.
+Print numbers from 10 to 1 using recursion.
+Find the sum of first N natural numbers.
+Find the factorial of a number.
+Print a name N times using recursion.
+
+Intermediate
+Generate Fibonacci series.
+Reverse a string using recursion.
+Find GCD of two numbers.
+Count digits in a number.
+Check whether a string is a palindrome.
+
+Scenario-Based Questions
+
+Scenario 1: Student Result System
+Create a function that accepts marks and returns:
+Distinction (≥75)
+First Class (60–74)
+Second Class (50–59)
+Fail (<50)
+
+Scenario 2: Employee Salary
+Create a function that calculates salary after a 10% bonus.
+
+Scenario 3: Electricity Bill
+Create a function to calculate electricity charges based on units consumed.
+
+Scenario 4: Voting Eligibility
+Create a function to check whether a person is eligible to vote (18+).
+
+Scenario 5: Shopping Cart
+Create a function to calculate the total bill and GST.
+Scenario 6: Bank System
+Create a function for deposit, withdrawal, and balance checking.
+
+Scenario 7: Attendance System
+Create a function to calculate attendance percentage.
+
+Scenario 8: Online Exam
+Create a function that calculates total marks, percentage, and grade.
+
+Scenario 9: Library Management
+Create a function to calculate the fine for late book returns.
+
+Scenario 10: Movie Ticket Booking
+Create a function to calculate ticket cost based on the number of seats booked.
