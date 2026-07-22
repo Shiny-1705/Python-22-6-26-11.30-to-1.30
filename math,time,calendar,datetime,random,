@@ -1,0 +1,86 @@
+#math
+# import math as m
+# print(m.factorial(5))
+# print(m.ceil(2.5))
+# print(m.floor(2.5))
+# print(m.exp(2.5))
+# print(m.log(6))
+# print(m.pi)
+# print(m.lcm(30,3))
+
+#time
+# import time as t
+# print("Hiii")
+# # t.sleep(4)
+# print("Welcome")
+# print(t.ctime())
+# print(t.strftime("%Y-%m-%d")) #year,month,date
+# print(t.strftime("%H:%M:%S")) #hour,min,sec
+# print(t.time())
+
+#calendar
+# import calendar as c
+# from calendar import month_name, day_name
+#
+# print(c.calendar(2026))
+# print(c.monthrange(2026,7))
+# print(c.leapdays(2020,2026))
+# print(c.month(2026,7))
+# print(c.isleap(2026))
+# print(c.isleap(2020))
+#
+# #for loop
+# import calendar as c
+# for calender in month_name:
+#     print(calender)
+# #days
+# import calendar as c
+# for calender in day_name:
+#     print(calender)
+#
+# print(c.weekheader(3))
+# print(c.weekheader(4))
+# print(c.weekheader(5))
+
+
+#user input
+# import calendar as c
+# y=int(input("Enter the year:"))
+# m=int(input("Enter the month:"))
+# print(c.month(y,m))
+
+#date time
+# import datetime as dt
+# print(dt.datetime.now())
+# a=dt.datetime.now()
+# print(a)
+# print(a.time())
+# print(a.strftime("%y-%m-%d %H:%M:%S"))
+# print(a.ctime())
+# print(dt.date(2026,7,17))
+
+# import datetime as dt
+# a1=dt.date(2026,7,17)
+# a2=dt.date(2026,9,12)
+# print(a2-a1)
+
+#Random
+# import random as r
+# print(r.random())
+# print(r.randint(1,50))
+# print(r.randrange(0,51,5))
+# a=["Sakthi","Nikesh","Janani","Vinoth"]
+# print(r.choice(a))
+# r.shuffle(a)
+# print(a)
+#
+# import random
+# chars="abcdefghijklmnopqrstuvwxyz12345678"
+# password="".join(random.choices(chars,k=8))
+# print(password)Pywhatkit
+import pywhatkit as pk
+#print(pk.sendwhatmsg("+918056374412","Hiii",12,43))
+#print(pk.sendwhatmsg_instantly("+918056374412","Hiii"))
+#print(pk.playonyt("Ben10"))
+#print(pk.search("Ben10"))
+print(pk.info("London",lines=10))
